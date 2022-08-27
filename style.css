@@ -185,30 +185,44 @@ footer a{
     .card p{
         margin:2px;
     }
-    /* .box-left input[type="checkbox"]{
-        margin:10px;
-    } */
     .box-left h3,.box-left li,.box-left select,.box-left input[type="checkbox"]{
         margin:10px;
         padding:8px;  
+    }
+    .box-content{
+        margin-bottom:50px;
     }
 }
 @media screen and (max-width:550px){
     .filter-box{
         display:block;
         text-align:center;
+        margin:2px;
+        width:100%;
     }
     .box-content{
         grid-template-columns:100%;
-   
+    }
+    .heading{
+        width:100%;
     }
     .card{
         display:grid;
         grid-template-columns:25% 75%;
         grid-gap:2%;
         height:200px;
+        margin:20px auto;
     }
     .card img{
         grid-area:1/1/4/2;
+        height:80px;
+        margin-top:30px;
+    }
+    .box-content{
+        display:block;
+    }
+    .box-left{
+        margin:20px 5px;
+        width:100%;
     }
 }
