@@ -170,7 +170,7 @@ footer a{
 @media screen and (max-width:992px){
     .box-content{
         grid-template-columns:49% 49%;
-        grid-template-rows:20% 20% 20% 20% 20%;
+        grid-template-rows:300px 300px 300px 300px 300px;
         grid-gap:2%;
     }
     .heading{
@@ -191,7 +191,7 @@ footer a{
         margin:10px;
     }
     .card img{
-        height:100px;
+        height:125px;
         width:150px;
         margin:auto;
     }
