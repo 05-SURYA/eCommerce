@@ -151,6 +151,13 @@ footer a{
     text-decoration:none;
     color:rgb(21, 88, 214);
 }
+#min, #max{
+    display:block;
+    text-align:center;
+}
+#min::before,#max::before{
+    content:"₹";
+}
 
 /* media screen 768px */
 @media screen and (max-width:992px){
@@ -176,14 +183,12 @@ footer a{
     .box-left h3{
         margin:10px;
     }
-    .card{
-        height:300px;
-    }
+    
     .card img{
-        height:125px;
+        height:200px;
     }
     .card p{
-        margin:2px;
+        margin:5px;
     }
     .box-left h3,.box-left li,.box-left select,.box-left input[type="checkbox"]{
         margin:10px;
