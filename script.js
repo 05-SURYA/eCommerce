@@ -63,8 +63,8 @@ let item9=new Item("working table","table",12000,"chennai","img/table.jpg");
 // })();
 
 function priceRange(){
-    let min = document.getElementById("min").innerHTML;
-    let max = document.getElementById("max").innerHTML;
+    let min = Number(document.getElementById("min").innerHTML);
+    let max = Number(document.getElementById("max").innerHTML);
     if(min>=max){
         alert("Minimum value should be less than maximum Value");
         return;
