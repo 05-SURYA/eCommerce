@@ -113,12 +113,7 @@ header button{
     grid-template-rows:400px;
     grid-gap:2%;
 }
-
-
-
-
-
-
+/* cards */
 .card{
     box-sizing:border-box;
     width:100%;
@@ -135,4 +130,39 @@ header button{
 .card p{
     text-align:center;
     font-size:1.1rem;
+}
+
+/* media screen 768px */
+@media screen and (max-width:768px){
+    .box-content{
+        grid-template-columns:50% 50%;
+        grid-template-rows:auto;
+    }
+    .filter-box{
+        display:block;
+        width:80%;
+        text-align:center;
+    }
+    .box-left{
+        margin:20px;
+        padding:5px;
+    }
+    .box-main{
+        margin:20px;
+        width:100%;
+    }
+    .card{
+        height:300px;
+    }
+    .card img{
+        height:125px;
+    }
+    .card p{
+        margin:2px;
+    }
+    .box-left input[type="checkbox"]{
+        margin:10px;
+    }
+
+
 }
