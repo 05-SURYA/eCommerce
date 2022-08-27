@@ -8,13 +8,13 @@ class Item{
         this.des="This text is example for description";
     }
 }
-let item1=new Item("Acer aspire","laptop",30000,"chennai","img/acer.jpg");
+let item1=new Item("Acer","laptop",30000,"chennai","img/acer.jpg");
 let item2=new Item("Oneplus","phone",40000,"mumbai","img/oneplus.jpg");
 let item3=new Item("iphone","phone",45000,"bangalore","img/iphone.jpg");
 let item4=new Item("Chair","furniture",8000,"chennai","img/dinning.jpg");
-let item5=new Item("Dell Inspiron","laptop",50000,"mumbai","img/dell.jpg");
+let item5=new Item("Dell","laptop",50000,"mumbai","img/dell.jpg");
 let item6=new Item("Redmi","phone",15000,"bangalore","img/redmi.jpg");
-let item7=new Item("Hp victus","laptop",20000,"chennai-","img/hp.jpg");
+let item7=new Item("Hp","laptop",20000,"chennai-","img/hp.jpg");
 let item8=new Item("samsung","phone",25000,"bangalore","img/samsung.jpg");
 let item9=new Item("Table","furniture",12000,"chennai","img/table.jpg");
 
