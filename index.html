@@ -32,8 +32,8 @@
         <div class="box-left"> 
             <h3>Price Range</h3>
             <div>
-                <span>min</span><input class="new-func" type="range" min="0" max="50000" step="1000" onchange="showVal(this);"><i id="min">0</i><br>
-                <span>max</span><input class="new-func" type="range" min="0" max="50000" step="1000" onchange="showVal(this);"><i id="max">50000</i>
+                <span>min</span><br><input class="new-func" type="range" min="0" max="50000" step="1000" onchange="showVal(this);"><i id="min" onchange="filterCard()">0</i><br>
+                <span>max</span><br><input class="new-func" type="range" min="0" max="50000" step="1000" onchange="showVal(this);"><i id="max" onchange="filterCard()">50000</i>
                 <button onclick="filterCard()">show</button>
             </div>
         </div>     
