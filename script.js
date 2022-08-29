@@ -24,6 +24,7 @@ let item9=new Item("Table","furniture",12000,"chennai","img/table.jpg");
 
 // function for price Range
  showVal=ele=> ele.nextSibling.innerHTML=ele.value;
+                
 
  let cards=[item1,item2,item3,item4,item5,item6,item7,item8,item9];
 
@@ -76,9 +77,11 @@ sortBy=ele=>{
 //   }
 // })();
 
+
 function filterCard(){
     let min = Number(document.getElementById("min").innerHTML);
     let max = Number(document.getElementById("max").innerHTML);
+
     if(min>max){
         alert("Minimum value should be less than maximum Value");
         return;
@@ -97,8 +100,9 @@ function filterCard(){
 }
 {
     let d = new Date();
+    let mon=["Jan","Feb","Mar","Apr","May","jun","Jul","Aug","Sep","Oct","Nov","Dec"]
     let ddate = d.getDate();
     let dmon = d.getMonth();
     let dyear = d.getFullYear();
-    document.getElementById("ondate").innerHTML = ddate+" - "+dmon+" - "+dyear;
+    document.getElementById("ondate").innerHTML = ddate+" - "+mon[dmon]+" - "+dyear;
 }
